@@ -54,6 +54,15 @@ rainy,75.0,80.0,false,yes
 
 ### OUTPUT:
 
+Training data Set -> Employee Table
+
+<img width="1376" height="827" alt="image" src="https://github.com/user-attachments/assets/1e68f895-31f0-4b62-8813-a0b382348317" />
+
+Training data Set -> Weather Table
+
+<img width="1381" height="826" alt="image" src="https://github.com/user-attachments/assets/dce1719d-cfe6-4bf4-be7e-d363f5aa1d79" />
+
+
 
 
 ### PREPROCESSING
@@ -76,6 +85,16 @@ rainy,75.0,80.0,false,yes
 
 ### OUTPUT:
 
+Employee table after adding new attribute department:
+
+<img width="1235" height="736" alt="image" src="https://github.com/user-attachments/assets/65c006c4-2fd4-44c8-a0c0-fcf6f2ca0874" />
+
+Weather table after adding new attribute season:
+
+<img width="1232" height="736" alt="image" src="https://github.com/user-attachments/assets/995e4e85-8bda-42ff-b2f2-6c19881b6db5" />
+
+
+
 ### 2) Remove -> Pre-Processing Technique:
 
 1) Start -> Programs -> Weka-3-4 -> Weka-3-4
@@ -92,6 +111,16 @@ rainy,75.0,80.0,false,yes
 
 ### OUTPUT:
 
+Employee table after removing attribute department:
+
+<img width="1233" height="735" alt="image" src="https://github.com/user-attachments/assets/29de8d4c-d87f-4112-a2df-ca770130eff1" />
+
+Employee table after removing attribute season:
+
+<img width="1227" height="741" alt="image" src="https://github.com/user-attachments/assets/3c563515-f4d8-4a45-bd11-5ade4f390af4" />
+
+
+
 ### Normalize -> Pre-Processing Technique:
 
 1) Start -> Programs -> Weka-3-4 -> Weka-3-4
@@ -107,5 +136,16 @@ rainy,75.0,80.0,false,yes
 11) Click on the Edit button, it shows a new Weather Table with normalized values on Weka.
 
 ### OUTPUT:
+
+Employee table after normalizing ID , EXP:
+
+<img width="1228" height="745" alt="image" src="https://github.com/user-attachments/assets/ac809545-e46f-43d8-a5b5-6fd841b0167c" />
+
+Weather table after normalizing TEMPERATURE , HUMIDITY:
+
+<img width="1230" height="733" alt="image" src="https://github.com/user-attachments/assets/98a2e408-b65c-475b-8907-1415b1a7228c" />
+
+
+
 ### RESULT: 
   Thus the program for generating employee and weather datasets has been developed, and preprocessing has been accomplished successfully.
